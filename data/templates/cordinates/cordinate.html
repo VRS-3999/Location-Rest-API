@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Location Detail</title>
+    </head>
+    <body>
+        <h1>Location Details</h1>
+        <ul>
+            {% for detail in gsm_list %}
+                Device ID: {{ detail.id }}<br>
+                Name: {{ detail.name }}<br>
+                Latitude: {{ detail.latitude }}<br>
+                Longitude: {{ detail.longitude }}<br>
+                <a href="https://maps.google.com/?q={{ detail.latitude }},{{ detail.longitude }}">Go to Location</a><br>
+                <br><br>
+            {% endfor %}
+        </ul>
+    </body>
+</html>
