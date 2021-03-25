@@ -147,7 +147,7 @@ python3-memcached==1.51
 pyttsx3==2.71
 pytz==2019.3
 pyupgrade==1.25.1
-PyYAML==5.1.2
+PyYAML==5.4
 readme-renderer==24.0
 redis==3.3.11
 regex==2019.11.1
