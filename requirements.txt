@@ -129,7 +129,7 @@ pycodestyle==2.5.0
 pycparser==2.19
 pydocstyle==4.0.1
 pyflakes==2.1.1
-Pygments==2.4.2
+Pygments==2.7.4
 pygubu==0.9.8.4
 PyHamcrest==1.9.0
 pymemcache==2.2.2
